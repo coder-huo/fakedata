@@ -7,5 +7,48 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "app": {
+    "appId": 1,
+    "primaryColor": "ff0000",
+    "brandImage": "http://infomedia-image.oss-cn-beijing.aliyuncs.com/huogh/mzclient/brand.png",
+    "launchAds": [
+      {
+        "adId": 1,
+        "url": "https://www.baidu.com",
+        "image": "http://infomedia-image.oss-cn-beijing.aliyuncs.com/huogh/mzclient/launch_ad.png",
+        "duration": 5
+      }
+    ],
+    "tabbar": [
+      {
+        "tabbarId": 1,
+        "name": "首页",
+        "icon": "home",
+        "action": 0,
+        "page": "home"
+      },
+      {
+        "tabbarId": 2,
+        "name": "音频",
+        "icon": "audio",
+        "action": 0,
+        "page": "aduio"
+      },
+      {
+        "tabbarId": 3,
+        "name": "视频",
+        "icon": "video",
+        "action": 0,
+        "page": "video"
+      },
+      {
+        "tabbarId": 4,
+        "name": "直播",
+        "icon": "live",
+        "action": 0,
+        "page": "live"
+      }
+    ]
   }
 }
